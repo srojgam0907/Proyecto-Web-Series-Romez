@@ -7,20 +7,36 @@
     <link rel="stylesheet" href="estilo/estilos.css">
 </head>
 <body>
-    <header>
-        <h1></h1>
-        <nav>
-            <li><a>Inicio</a></li>
-            <li><a>Tabla</a></li>
-            <li><a>Galería</a></li>
-            <li><a>Formulario</a></li>
-            <li><a>Contacto</a></li>
+    <header class="site-header">
+        <h1>Series Romez</h1>
+        <h2>Disfruta de tu visita</h2>
+        <nav class="main-nav">
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#tabla">Tabla</a></li>
+            <li><a href="#galeria">Galería</a></li>
+            <li><a href="#form">Formulario</a></li>
+            <li><a href="#contacto">Contacto</a></li>
         </nav>
     </header>
 
+    <!-- BOTON HAMBURGUESA -->
     <button class="open-menu" aria-label="Abrir menú lateral">☰</button>
 
+    <nav id="sideMenu" class="side-menu">
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#tabla">Tabla</a></li>
+        <li><a href="#galeria">Galería</a></li>
+        <li><a href="#form">Formulario</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+    </nav>
+
     <main>
+        <!-- SOBRE MI -->
+        <section id="inicio">
+            <h2>Quién soy</h2>
+            <p>Descripcion</p>
+            <!-- aside: Imagen avatar -->
+        </section>
             
         <!-- SECCIÓN HERO -->
         <section id="hero">
@@ -29,32 +45,34 @@
         </section>
 
         <!-- SECCIÓN GALERÍA -->
-        <section>
+        <section id="galeria">
             <h2>Galería de imágenes</h2>
             
         </section>
 
         <!-- SECCIÓN TABLA -->
-        <section>
+        <section id="tabla">
             <h2>Tabla de datos</h2>
             
         </section>
 
         <!-- SECCIÓN FORMULARIO -->
-        <section>
+        <section id="form">
             <h2>Formulario</h2>
            
         </section>
 
         <!-- SECCIÓN CONTACTO / CIERRE -->
-        <section>
+        <section id="Contacto">
             <h2>Contacto</h2>
             
         </section>
     </main>
 
-    <footer>
-        
+    <footer class="site-footer">
+        <p><a href="#hero">&copy; Series Romez</a></p>
+        <p>Prohibida la copia o adaptación de este contenido</p>
+
     </footer>
 
     <!-- JavaScript para abrir/cerrar el menú lateral -->
