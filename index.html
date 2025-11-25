@@ -7,6 +7,68 @@
     <link rel="stylesheet" href="estilo/estilos.css">
 </head>
 <body>
-    
+    <header>
+        <h1></h1>
+        <nav>
+            <li><a>Inicio</a></li>
+            <li><a>Tabla</a></li>
+            <li><a>Galería</a></li>
+            <li><a>Formulario</a></li>
+            <li><a>Contacto</a></li>
+        </nav>
+    </header>
+
+    <button class="open-menu" aria-label="Abrir menú lateral">☰</button>
+
+    <main>
+            
+        <!-- SECCIÓN HERO -->
+        <section id="hero">
+            <h2>Sección Hero</h2>
+            <p>Texto sobre el tema principal</p>
+        </section>
+
+        <!-- SECCIÓN GALERÍA -->
+        <section>
+            <h2>Galería de imágenes</h2>
+            
+        </section>
+
+        <!-- SECCIÓN TABLA -->
+        <section>
+            <h2>Tabla de datos</h2>
+            
+        </section>
+
+        <!-- SECCIÓN FORMULARIO -->
+        <section>
+            <h2>Formulario</h2>
+           
+        </section>
+
+        <!-- SECCIÓN CONTACTO / CIERRE -->
+        <section>
+            <h2>Contacto</h2>
+            
+        </section>
+    </main>
+
+    <footer>
+        
+    </footer>
+
+    <!-- JavaScript para abrir/cerrar el menú lateral -->
+    <script>
+        const sideMenu = document.getElementById("sideMenu");
+        const toggleBtn = document.querySelector(".open-menu");
+
+        toggleBtn.addEventListener("click", () => {
+        sideMenu.classList.toggle("active");
+        toggleBtn.classList.toggle("active");
+
+        toggleBtn.textContent =
+            sideMenu.classList.contains("active") ? "✖" : "☰";
+        });
+    </script>
 </body>
 </html>
