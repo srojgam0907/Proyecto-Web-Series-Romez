@@ -23,14 +23,14 @@ body {
   border-bottom: 3px solid #2a2a2a;
 }
 
-/* LOGO */
+    /* LOGO */
 .cabecera img {
   width: 150px;
   height: 150px;
   margin-left: 30px;
 }
 
-/* TITULOS */
+    /* TITULOS */
 .cabecera > div {
   flex-grow: 1;
   margin-left: 80px;
@@ -48,7 +48,7 @@ body {
   color: #ccc;
 }
 
-/* MENU */
+    /* MENU */
 .menu ul {
   list-style: none;
   display: flex;
@@ -86,13 +86,13 @@ body {
   transition: transform 0.3s ease, background-color 0.3s ease;
 }
 
-/* Efecto visual cuando el menú está abierto */
+    /* Efecto visual cuando el menú está abierto */
 .open-menu.active {
   background-color: rgb(112, 112, 112);
   color: white;
 }
 
-/* ===== MENÚ LATERAL DESLIZANTE ===== */
+    /* MENÚ LATERAL DESLIZANTE */
 .side-menu {
   position: fixed;
   top: 0;
@@ -131,3 +131,28 @@ body {
   color: black;
   font-weight: bold;
 }
+
+/* MAIN */
+
+
+/* SECCIONES */
+
+  /* SOBRE MI */
+
+
+  /* HERO */
+
+
+  /* TABLA */
+
+
+  /* GALERIA */
+
+
+  /* FORMULARIO */
+
+
+  /* CONTACTO */
+
+
+/* FOOTER */
