@@ -114,7 +114,6 @@ body {
   list-style: none;
   font-size: 20px;
   padding: 0;
-  
 }
 
 .side-menu a {
@@ -133,26 +132,45 @@ body {
 }
 
 /* MAIN */
-
+main {
+  background-color: antiquewhite;
+}
 
 /* SECCIONES */
+section { /*Estilo tarjeta?*/
+  margin: 15px;
+  padding: 15px;
+  /*background-color: #311717;*/
 
+}
   /* SOBRE MI */
+.inicio {
 
+}
 
   /* HERO */
+.hero {
 
+}
 
   /* TABLA */
+.tabla {
 
+}
 
   /* GALERIA */
+.galeria {
 
+}
 
   /* FORMULARIO */
+.form {
 
+}
 
   /* CONTACTO */
-
+.contacto {
+  
+}
 
 /* FOOTER */
