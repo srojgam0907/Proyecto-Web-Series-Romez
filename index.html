@@ -69,16 +69,21 @@
         <!-- SECCIÓN FORMULARIO -->
         <section id="form">
             <h2>Formulario</h2>
-            <form>
-                <label for="nombre">Nombre:</label>
-                <input type="text" id="nombre">
+            <form method="post">
+                <label for="nombre">Nombre:</label><br>
+                <input type="text" id="nombre" placeholder="Sara Rojas">
+                <br><br>
 
-                <label for="email">Email:</label>
-                <input type="email" id="email">
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" placeholder="ejemplo@gmail.com">
+                <br><br>
 
-                <label>¿Que te gustaría ver?</label> <!-- textarea -->
-                <input>
+                <label for="series">¿Que te gustaría ver?</label> <br>
+                <textarea name="series" rows="4" placeholder="Escribe el titulo de las series"></textarea>
+                <br><br>
 
+                <label for="datos">¿Que otros datos te gustaría saber?</label> <br>
+                <textarea name="datos" rows="4" placeholder="Escribe otro dato"></textarea>
             </form>
         </section>
 
