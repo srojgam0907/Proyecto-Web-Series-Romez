@@ -165,6 +165,7 @@ section h2 {
 #inicio aside, p {
   display: flex;
   align-items: flex-start;
+  font-size: 18px;
 }
 
 #inicio aside img {
