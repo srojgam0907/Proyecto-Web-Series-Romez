@@ -173,8 +173,14 @@ section h2 {
 }
 
   /* HERO */
-.hero {
+#hero {
+  padding: 20px;
+  background-color: #f7f2f2;
+  border-radius: 10px;
+}
 
+#hero p {
+  font-size: 18px;
 }
 
   /* TABLA */
