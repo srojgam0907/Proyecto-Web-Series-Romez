@@ -162,15 +162,21 @@ section h2 {
   border-radius: 10px;
 }
 
-#inicio aside, p {
+#inicio div{
   display: flex;
-  align-items: flex-start;
-  font-size: 18px;
+  align-items: center;  
+  gap: 20px;
 }
 
-#inicio aside img {
-  width: 150px;
+#inicio div p{
+  font-size: 20px;
+  line-height: 1.6;
+}
+
+#inicio div aside img {
+  width: 200px;
   object-fit: cover;
+  margin-right: 50px;
 }
 
   /* HERO */
@@ -181,7 +187,8 @@ section h2 {
 }
 
 #hero p {
-  font-size: 18px;
+  font-size: 20px;
+  line-height: 1.6;
 }
 
   /* TABLA */
@@ -308,6 +315,7 @@ footer {
   padding: 50px 50px;
   background: #311717;
   color: white;
+  font-size: 18px;
 }
 
 .site-footer a{
