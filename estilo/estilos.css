@@ -278,6 +278,7 @@ section h2 {
   padding: 20px;
   background-color: #f7f2f2;
   border-radius: 10px;
+  margin-bottom: 50px;
 }
 
 #contacto p{
@@ -295,3 +296,20 @@ section h2 {
 }
 
 /* FOOTER */
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 50px;
+  background: #311717;
+  color: white;
+}
+
+.site-footer a{
+  color: orange;
+  text-decoration: none;
+}
+
+.site-footer a:visited{
+  color: rgb(188, 129, 20);
+}
