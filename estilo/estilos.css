@@ -149,9 +149,12 @@ section { /*Estilo tarjeta?*/
 }
 
 section h2 {
-  margin-bottom: 15px;
-  text-align: left;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #311717;
+  font-size: 40px;
 }
+
   /* SOBRE MI */
 #inicio {
   padding: 20px;
@@ -179,13 +182,6 @@ section h2 {
   padding: 20px;
   background-color: #f7f2f2;
   border-radius: 10px;
-}
-
-#tabla h2 {
-  text-align: center;
-  margin-bottom: 20px;
-  color: #311717;
-  font-size: 40px;
 }
 
 #tabla table {
@@ -219,13 +215,6 @@ section h2 {
   padding: 20px;
   background-color: #f7f2f2;
   border-radius: 10px;
-}
-
-#galeria h2 {
-  text-align: center;
-  margin-bottom: 20px;
-  color: #311717;
-  font-size: 40px;
 }
 
 /* Grid para las imágenes */
