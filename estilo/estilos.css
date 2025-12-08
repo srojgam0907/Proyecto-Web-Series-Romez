@@ -154,8 +154,34 @@ section { /*Estilo tarjeta?*/
 }
 
   /* TABLA */
-.tabla {
+#tabla h2 {
+  margin-bottom: 15px;
+}
 
+#tabla table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: auto;
+  font-size: 16px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+
+#tabla thead {
+  background-color: #ff7f7f;
+
+}
+
+#tabla thead th {
+  border: 2px solid black;
+  padding: 10px 15px;
+  font-size: 15px;
+}
+
+#tabla tbody td{
+  border: 2px solid black;
+  padding: 10px 15px;
 }
 
   /* GALERIA */
