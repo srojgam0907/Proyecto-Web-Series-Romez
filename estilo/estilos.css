@@ -153,8 +153,18 @@ section h2 {
   text-align: left;
 }
   /* SOBRE MI */
-.inicio {
+#inicio {
+  
+}
 
+#inicio aside, p {
+  display: flex;
+  align-items: flex-start;
+}
+
+#inicio aside img {
+  width: 150px;
+  object-fit: cover;
 }
 
   /* HERO */
