@@ -133,15 +133,24 @@ body {
 
 /* MAIN */
 main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   background-color: antiquewhite;
 }
 
 /* SECCIONES */
 section { /*Estilo tarjeta?*/
+  width: 60%;
   margin: 15px;
   padding: 15px;
   /*background-color: #311717;*/
 
+}
+
+section h2 {
+  margin-bottom: 15px;
+  text-align: left;
 }
   /* SOBRE MI */
 .inicio {
@@ -154,10 +163,6 @@ section { /*Estilo tarjeta?*/
 }
 
   /* TABLA */
-#tabla h2 {
-  margin-bottom: 15px;
-}
-
 #tabla table {
   width: 100%;
   border-collapse: collapse;
